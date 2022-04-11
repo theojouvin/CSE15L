@@ -23,7 +23,7 @@ On with it then!
 ## Part 1 - Installing VSCode
 1. Visit the VSCode website (https://code.visualstudio.com/) and click the download button for your respective operating system.
 <details>
-  <summary>Download Button</summary>
+  <summary>» Download Button</summary>
   ![VSCode Download Button](lab1images/vscodedownloadbutton.png)
 </details>
 
@@ -31,12 +31,12 @@ On with it then!
 
 3. Open VSCode. You should be greeted with a window that looks something like this!
 <details>
-  <summary>VSCode Window</summary>
+  <summary>» VSCode Window</summary>
   ![VSCode Window](lab1images/vscodewindow.png)
   </details>
 
 That is all for Part 1! You now have VSCode downloaded and installed.
 
-##Part 2 - Remotely Connecting into the ```ieng6``` server at UCSD.
+## Part 2 - Remotely Connecting into the ```ieng6``` server at UCSD.
   
   
