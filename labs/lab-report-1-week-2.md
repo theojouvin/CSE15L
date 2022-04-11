@@ -24,6 +24,7 @@ On with it then!
 1. Visit the VSCode website (https://code.visualstudio.com/) and click the download button for your respective operating system.
 <details>
   <summary>» Download Button</summary>
+  
   ![VSCode Download Button](lab1images/vscodedownloadbutton.png)
 </details>
   
@@ -32,6 +33,7 @@ On with it then!
 3. Open VSCode. You should be greeted with a window that looks something like this!
 <details>
   <summary>» VSCode Window</summary>
+  
   ![VSCode Window](lab1images/vscodewindow.png)
   </details>
 
