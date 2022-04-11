@@ -40,7 +40,7 @@ On with it then!
 
 That is all for Part 1! You now have VSCode downloaded and installed.
 
-## Part 2 - Remotely Connecting into the ```ieng6``` server at UCSD.
+## Part 2 - Remotely Connecting into the ```ieng6``` server at UCSD
 To connect to the remote server named ```ieng6``` at UCSD, we will be using the SSH command.
 
 1. At the bottom of your VSCode window, you should see a section labled *Terminal*.
@@ -88,10 +88,10 @@ We will now go over some basic commands that are useful to know. As you go throu
   - The ```ls``` command with the "-l" argument will list all of the files in your current directory vertically, with in more detail.
 6. ```ls <directory>``` Try "/"
   - The ```ls``` command with "/" or any other directory for that matter will list files in that requested directory, even if you are not in it.
-7. ```cp /home/linux/ieng6/cs15lxxxx/public/hello.txt ~/```
-  - The ```cp``` command will copy a file from one directory to another. Typing it as provided above (with the exception of changing "xxxx" to your current quarter and year) will copy the hello.txt file into your home directory.
-8. ```cat /home/linux/ieng6/cs15lxxxx/public/hello.txt```
-  - The ```cat``` command will display the contents of file. Typing it as provided above (with the exception of changing "xxxx" to your current quarter and year) will display the contents of hello.txt.
+7. ```cp /home/linux/ieng6/cs15lxxxx/public/README.instructor ~/```
+  - The ```cp``` command will copy a file from one directory to another. Typing it as provided above (with the exception of changing "xxxx" to your current quarter and year) will copy the README.instructor file into your home directory.
+8. ```cat /home/linux/ieng6/cs15lxxxx/public/README.instructor```
+  - The ```cat``` command will display the contents of file. Typing it as provided above (with the exception of changing "xxxx" to your current quarter and year) will display the contents of README.instructor.
 
 <details>
   <summary> » Command 1</summary>
@@ -144,4 +144,38 @@ We will now go over some basic commands that are useful to know. As you go throu
 
 That is all for Part 3! You now know a few basic commands.
 
-## Part 4 - 
+## Part 4 - Moving Files Between a Client and a Server
+In order to move files between your computer and the server, you will be using the ```scp``` command.
+
+1. Before you learn about and run the ```scp``` command, use VSCode to create a new file on your computer.
+  - Name the file ```info.java``` and save it in your user directory.
+  - Paste the following into the file:
+  ```class info {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+```
+2. For this next step, make sure that you are disconnected from the ```ieng6``` server. You can do this by running ```logout```.
+3. You are now going to transfer the file from your computer to the server using the ```scp``` command.
+  - ```scp info.java username@ieng6.ucsd.edu:~/```
+  - If you correctly saved the file in your user's directory on your computer, you won't need to add the path to the file in the command.
+  - Again, the username portion of the command refers to your course-specific account username.
+  - "~/" at the end of the command tells the server to have the file saved in your home directory.
+  - Once you press enter, you will be asked to enter your password.
+  - Once entered, the file will be moved to the server.
+
+<details>
+  <summary> » File Transfer</summary>
+  
+  <img src="lab1images/filetransfer.png" alt="File Transfer">
+  
+</details>  
+
+That is all for Part 4! You have now successfully moved a file between your computer and the server.
+
+## Part 5 - Setting Up an SSH Key
+Having to enter your password every time you want to log into or transfer a file to the server can take up a lot of time. Luckily, setting up an SSH Key can speed up this process tremendously! You will no longer have to enter a password every single time, and in general, this is a more secure method of logging into a server remotely.
