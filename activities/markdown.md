@@ -1,6 +1,11 @@
-# Software Tools & Techniques Lab - Théo Jouvin's Blog
+##Markdown Activity
+---
 
-## Lab Report - Weeks 1 & 2
+# Big Header
+
+## Medium Header
+
+### Small Header
 
 Regular Text
 
