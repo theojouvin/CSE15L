@@ -47,3 +47,13 @@ That is all for Part 1! You now have VSCode downloaded and installed.
 To connect to the remote server named ```ieng6``` at UCSD, we will be using the SSH command.
 
 1. At the bottom of your VSCode window, you should see a section labled *Terminal*.
+
+2. In that terminal section, enter the command ```ssh username@ieng6.ucsd.edu```
+  - ```ssh``` Is the command being run.
+  - ```username``` Refers to your course-specific account username. It most likely starts with ``cs15l``. Enter your unique username here.
+  - ```@ieng6.ucsd.edu``` Tells your computer where to connect to. In this case, it is the ```ieng6``` server at UCSD.
+3. Once you press enter, you will be asked if you are sure that you want to continue connecting with a (yes/no) prompt. Enter ```yes``` and press enter to save the ```ieng6``` server as a known host on your computer.
+4. Next, you will be asked for a password. Enter your course-specific account password here.
+  - You will not see your password being entered as you type it! Do not worry, this is normal. It is a security feature.
+  - Make sure you entered/pasted your password correctly, then press enter.
+5. At this point, you have successfully connected to the ```ieng6``` server! You should be greeted with messages that look something like this.
