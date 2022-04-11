@@ -21,7 +21,7 @@ On with it then!
 ---
 
 ## Part 1 - Installing VSCode
-1. Visit the VSCode website [(https://code.visualstudio.com/)](https://code.visualstudio.com/) and click the download button for your respective operating system. 
+1. Visit the VSCode website ([https://code.visualstudio.com/](https://code.visualstudio.com/)) and click the download button for your respective operating system. 
 2. Run the installer if necessary, or if you downloaded a zip file, just unarchive that and drag VSCode to your Applications Folder.
 3. Open VSCode. You should be greeted with a window that looks something like this!
 
