@@ -26,7 +26,7 @@ On with it then!
 <details>
   <summary>» Download Button</summary>
   
-  <img src="lab1images/vscodedownloadbutton.png" alt="VSCode Download Button"></img>
+  <img src="lab1images/vscodedownloadbutton.png" alt="VSCode Download Button">
   
 </details>
   
@@ -36,7 +36,7 @@ On with it then!
 <details>
   <summary>» VSCode Window</summary>
   
-  <img src="lab1images/vscodewindow.png" alt="VSCode Window"></img>
+  <img src="lab1images/vscodewindow.png" alt="VSCode Window">
   
   </details>
 
@@ -50,9 +50,9 @@ To connect to the remote server named ```ieng6``` at UCSD, we will be using the 
 <details>
   <summary>» VSCode Terminal</summary>
   
-  <img src="lab1images/vscodeterminal.png" alt="VSCode Terminal"></img>
+  <img src="lab1images/vscodeterminal.png" alt="VSCode Terminal">
   
-</details><br />
+</details>
   
 2. In that terminal section, enter the command ```ssh username@ieng6.ucsd.edu```
   - ```ssh``` Is the command being run.
@@ -67,8 +67,8 @@ To connect to the remote server named ```ieng6``` at UCSD, we will be using the 
 <details>
   <summary>» Welcome Messages</summary>
   
-  <img src="lab1images/welcomemessages.png" alt="Welcome Messages"></img>
+  <img src="lab1images/welcomemessages.png" alt="Welcome Messages">
   
-</details><br />
+</details>
   
   
