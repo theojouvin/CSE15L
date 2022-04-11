@@ -21,16 +21,16 @@
       <!--{% if site.github.is_project_page %}-->
         <a href="https://theojouvin.com" class="btn" target="_blank">Personal Site</a>
       <!--{% endif %}-->
-      {% if site.show_downloads %}
-        <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-        <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
+      <!--{% if site.show_downloads %}-->
+        <a href="https://theojouvin.github.io/CSE15L/labreports" class="btn">Lab Reports</a>
+        <a href="https://theojouvin.github.io/CSE15L/activities" class="btn">In-Class Activities</a>
+      <!--{% endif %}-->
     </header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
 
-      <!--<footer class="site-footer">
+     <!-- <footer class="site-footer">
         {% if site.github.is_project_page %}
           <span class="site-footer-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</span>
         {% endif %}
