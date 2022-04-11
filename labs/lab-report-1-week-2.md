@@ -12,7 +12,7 @@ Hello new and incoming 15L students! In this guide, you will learn the following
 
 This guide will be formatted into multiple parts with explanations and screenshots of different steps. Screenshots will be included in spoilers as to not take up uncessary space. 
 <details>
-  <summary>» This is a spoiler, Click Me!</summary>
+  <summary> » This is a spoiler, Click Me!</summary>
   This is the inside of a spoiler where images will be located!
   </details>
 
@@ -23,7 +23,7 @@ On with it then!
 ## Part 1 - Installing VSCode
 1. Visit the VSCode website [(https://code.visualstudio.com/)](https://code.visualstudio.com/) and click the download button for your respective operating system.
 <details>
-  <summary>» Download Button</summary>
+  <summary> » Download Button</summary>
   
   <img src="lab1images/vscodedownloadbutton.png" alt="VSCode Download Button">
   
@@ -32,7 +32,7 @@ On with it then!
 2. Run the installer if necessary, or if you downloaded a zip file, just unarchive that and drag VSCode to your Applications Folder.
 3. Open VSCode. You should be greeted with a window that looks something like this!
 <details>
-  <summary>» VSCode Window</summary>
+  <summary> » VSCode Window</summary>
   
   <img src="lab1images/vscodewindow.png" alt="VSCode Window">
   
@@ -45,7 +45,7 @@ To connect to the remote server named ```ieng6``` at UCSD, we will be using the 
 
 1. At the bottom of your VSCode window, you should see a section labled *Terminal*.
 <details>
-  <summary>» VSCode Terminal</summary>
+  <summary> » VSCode Terminal</summary>
   
   <img src="lab1images/vscodeterminal.png" alt="VSCode Terminal">
   
@@ -62,7 +62,7 @@ To connect to the remote server named ```ieng6``` at UCSD, we will be using the 
 5. At this point, you have successfully connected to the ```ieng6``` server! You should be greeted with messages that look something like this.
 
 <details>
-  <summary>» Welcome Messages</summary>
+  <summary> » Welcome Messages</summary>
   
   <img src="lab1images/welcomemessages.png" alt="Welcome Messages">
   
