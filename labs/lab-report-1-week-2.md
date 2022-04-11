@@ -26,7 +26,7 @@ On with it then!
 <details>
   <summary>» Download Button</summary>
   
-  <img src="lab1images/vscodedownloadbutton.png" alt"VSCode Download Button"></img>
+  <img src="lab1images/vscodedownloadbutton.png" alt="VSCode Download Button"></img>
   
 </details><br />
   
@@ -36,7 +36,7 @@ On with it then!
 <details>
   <summary>» VSCode Window</summary>
   
-  <img src="lab1images/vscodewindow.png" alt"VSCode Window"></img>
+  <img src="lab1images/vscodewindow.png" alt="VSCode Window"></img>
   
   </details>
 
@@ -50,7 +50,7 @@ To connect to the remote server named ```ieng6``` at UCSD, we will be using the 
 <details>
   <summary>» VSCode Terminal</summary>
   
-  <img src="lab1images/vscodeterminal.png" alt"VSCode Terminal"></img>
+  <img src="lab1images/vscodeterminal.png" alt="VSCode Terminal"></img>
   
 </details><br />
   
@@ -67,7 +67,7 @@ To connect to the remote server named ```ieng6``` at UCSD, we will be using the 
 <details>
   <summary>» Welcome Messages</summary>
   
-  <img src="lab1images/welcomemessages.png" alt"Welcome Messages"></img>
+  <img src="lab1images/welcomemessages.png" alt="Welcome Messages"></img>
   
 </details><br />
   
