@@ -215,7 +215,7 @@ Creating the SSH Keys in the last step was only the first step in optimizing rem
   - Including a semi-colon after the individual commands tells the server to run all of them.
 3. Let's say you made an edit to the file on your computer and needed to re-transfer it, re-compile it, and re-run it. This can easily be done by using the up-arrow on your keyboard to go through previously ran commands.
   - First, re-running the ```scp``` command.
-  - Then, re-running the one-linher with multiple commands.
+  - Then, re-running the one-liner with multiple commands.
   - All of this done with only a few keystrokes, and without the need for a password to be entered on every run.
 
 <details>
