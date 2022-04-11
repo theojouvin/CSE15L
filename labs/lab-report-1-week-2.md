@@ -26,18 +26,17 @@ On with it then!
 <details>
   <summary>» Download Button</summary>
   
-  ![VSCode Download Button](lab1images/vscodedownloadbutton.png)
+  <img src="lab1images/vscodedownloadbutton.png" alt"VSCode Download Button"></img>
   
-</details>
+</details><br />
   
 2. Run the installer if necessary, or if you downloaded a zip file, just unarchive that and drag VSCode to your Applications Folder.
-
 3. Open VSCode. You should be greeted with a window that looks something like this!
 
 <details>
   <summary>» VSCode Window</summary>
   
-  ![VSCode Window](lab1images/vscodewindow.png)
+  <img src="lab1images/vscodewindow.png" alt"VSCode Window"></img>
   
   </details>
 
@@ -48,6 +47,13 @@ To connect to the remote server named ```ieng6``` at UCSD, we will be using the 
 
 1. At the bottom of your VSCode window, you should see a section labled *Terminal*.
 
+<details>
+  <summary>» VSCode Terminal</summary>
+  
+  <img src="lab1images/vscodeterminal.png" alt"VSCode Terminal"></img>
+  
+</details><br />
+  
 2. In that terminal section, enter the command ```ssh username@ieng6.ucsd.edu```
   - ```ssh``` Is the command being run.
   - ```username``` Refers to your course-specific account username. It most likely starts with ``cs15l``. Enter your unique username here.
@@ -57,3 +63,12 @@ To connect to the remote server named ```ieng6``` at UCSD, we will be using the 
   - You will not see your password being entered as you type it! Do not worry, this is normal. It is a security feature.
   - Make sure you entered/pasted your password correctly, then press enter.
 5. At this point, you have successfully connected to the ```ieng6``` server! You should be greeted with messages that look something like this.
+
+<details>
+  <summary>» Welcome Messages</summary>
+  
+  <img src="lab1images/welcomemessages.png" alt"Welcome Messages"></img>
+  
+</details><br />
+  
+  
