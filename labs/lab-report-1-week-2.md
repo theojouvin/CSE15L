@@ -16,7 +16,7 @@ This guide will be formatted into multiple parts with explanations and screensho
   This is the inside of a spoiler where images will be located!
   </details>
 
-On with it then!
+**On with it then!**
 
 ---
 
@@ -38,7 +38,7 @@ On with it then!
   
   </details>  
 
-That is all for Part 1! You now have VSCode downloaded and installed.
+**That is all for Part 1! You now have VSCode downloaded and installed.**
 
 ## Part 2 - Remotely Connecting into the ```ieng6``` server at UCSD
 To connect to the remote server named ```ieng6``` at UCSD, we will be using the SSH command.
@@ -71,7 +71,7 @@ To connect to the remote server named ```ieng6``` at UCSD, we will be using the 
   
 </details>  
   
-That is all for Part 2! You have now successfully connected to the ```ieng6``` server.
+**That is all for Part 2! You have now successfully connected to the ```ieng6``` server.**
 
 ## Part 3 - Basic Linux/Command Prompt Commands
 We will now go over some basic commands that are useful to know. As you go through this guide, try these commands yourself and see if you get the same outputs!
@@ -142,7 +142,7 @@ We will now go over some basic commands that are useful to know. As you go throu
   
 </details>  
 
-That is all for Part 3! You now know a few basic commands.
+**That is all for Part 3! You now know a few basic commands.**
 
 ## Part 4 - Moving Files Between a Client and a Server
 In order to move files between your computer and the server, you will be using the ```scp``` command.
@@ -150,7 +150,8 @@ In order to move files between your computer and the server, you will be using t
 1. Before you learn about and run the ```scp``` command, use VSCode to create a new file on your computer.
   - Name the file ```info.java``` and save it in your user directory.
   - Paste the following into the file:
-  ```class info {
+  ```
+  class info {
   public static void main(String[] args) {
     System.out.println(System.getProperty("os.name"));
     System.out.println(System.getProperty("user.name"));
@@ -175,7 +176,33 @@ In order to move files between your computer and the server, you will be using t
   
 </details>  
 
-That is all for Part 4! You have now successfully moved a file between your computer and the server.
+**That is all for Part 4! You have now successfully moved a file between your computer and the server.**
 
 ## Part 5 - Setting Up an SSH Key
 Having to enter your password every time you want to log into or transfer a file to the server can take up a lot of time. Luckily, setting up an SSH Key can speed up this process tremendously! You will no longer have to enter a password every single time, and in general, this is a more secure method of logging into a server remotely.
+
+1. On your computer, run ```ssh-keygen```
+2. You will be asked to name the file. Name it ```id_rsa``` and press enter.
+3. You will be asked to enter a passphrase. Do not enter anything, just press enter.
+4. A message will now tell you where your private and public key have been saved.
+  - The private key ```id_rsa``` will stay on your computer.
+  - The public key ```id_rsa.pub``` saved in your computer's .ssh folder will be transferred to the server. This will be done using the ```scp``` command that was reviewed earlier!
+5. You will now need to log into the server to create a .ssh directory there.
+6. Once logged in, run ```mkdir .ssh```
+  - This command makes a directory, named .ssh.
+7. Log out of the server.
+8. Once on your computer again, run the command ```scp ~/.ssh/id_rsa.pub username@ieng6.ucsd.edu:~/.ssh/authorized_keys```
+  - This is the last time that you will need to enter your password!
+  - This will transfer the public key into a file "authorized_keys" in the ".ssh" directory you created in a previous step.
+9. Try logging into the server again now. Notice that you will be automatically logged in without the need to enter your password.
+
+<details>
+  <summary> » Logged In With No Password</summary>
+  
+  <img src="lab1images/nopasslogin.png" alt="Logged In With No Password">
+  
+</details> 
+
+**That is all for Part 5! You have now successfully set up an SSH Key.**
+
+## Part 6 - Optimizing Remote Running
