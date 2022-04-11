@@ -30,7 +30,8 @@ On with it then!
 </details>  
 
 2. Run the installer if necessary, or if you downloaded a zip file, just unarchive that and drag VSCode to your Applications Folder.
-3. Open VSCode. You should be greeted with a window that looks something like this! <details>
+3. Open VSCode. You should be greeted with a window that looks something like this!
+<details>
   <summary>» VSCode Window</summary>
   
   <img src="lab1images/vscodewindow.png" alt="VSCode Window">
