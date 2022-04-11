@@ -30,6 +30,7 @@ On with it then!
   
 </details>
   
+  
 2. Run the installer if necessary, or if you downloaded a zip file, just unarchive that and drag VSCode to your Applications Folder.
 3. Open VSCode. You should be greeted with a window that looks something like this!
 
@@ -54,6 +55,7 @@ To connect to the remote server named ```ieng6``` at UCSD, we will be using the 
   
 </details>
   
+  
 2. In that terminal section, enter the command ```ssh username@ieng6.ucsd.edu```
   - ```ssh``` Is the command being run.
   - ```username``` Refers to your course-specific account username. It most likely starts with ``cs15l``. Enter your unique username here.
@@ -71,4 +73,6 @@ To connect to the remote server named ```ieng6``` at UCSD, we will be using the 
   
 </details>
   
-  
+That is all for Part 2! You have now successfully connected to the ```ieng6``` server.
+
+## Part 3 - Basic Linux/Command Prompt Commands
