@@ -22,18 +22,14 @@ On with it then!
 
 ## Part 1 - Installing VSCode
 1. Visit the VSCode website [(https://code.visualstudio.com/)](https://code.visualstudio.com/) and click the download button for your respective operating system.
-
 <details>
   <summary>» Download Button</summary>
   
   <img src="lab1images/vscodedownloadbutton.png" alt="VSCode Download Button">
   
 </details>
-  
-  
 2. Run the installer if necessary, or if you downloaded a zip file, just unarchive that and drag VSCode to your Applications Folder.
 3. Open VSCode. You should be greeted with a window that looks something like this!
-
 <details>
   <summary>» VSCode Window</summary>
   
@@ -47,15 +43,12 @@ That is all for Part 1! You now have VSCode downloaded and installed.
 To connect to the remote server named ```ieng6``` at UCSD, we will be using the SSH command.
 
 1. At the bottom of your VSCode window, you should see a section labled *Terminal*.
-
 <details>
   <summary>» VSCode Terminal</summary>
   
   <img src="lab1images/vscodeterminal.png" alt="VSCode Terminal">
   
 </details>
-  
-  
 2. In that terminal section, enter the command ```ssh username@ieng6.ucsd.edu```
   - ```ssh``` Is the command being run.
   - ```username``` Refers to your course-specific account username. It most likely starts with ``cs15l``. Enter your unique username here.
@@ -65,7 +58,6 @@ To connect to the remote server named ```ieng6``` at UCSD, we will be using the 
   - You will not see your password being entered as you type it! Do not worry, this is normal. It is a security feature.
   - Make sure you entered/pasted your password correctly, then press enter.
 5. At this point, you have successfully connected to the ```ieng6``` server! You should be greeted with messages that look something like this.
-
 <details>
   <summary>» Welcome Messages</summary>
   
@@ -76,3 +68,4 @@ To connect to the remote server named ```ieng6``` at UCSD, we will be using the 
 That is all for Part 2! You have now successfully connected to the ```ieng6``` server.
 
 ## Part 3 - Basic Linux/Command Prompt Commands
+We will now go over some 
