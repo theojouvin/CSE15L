@@ -206,3 +206,27 @@ Having to enter your password every time you want to log into or transfer a file
 **That is all for Part 5! You have now successfully set up an SSH Key.**
 
 ## Part 6 - Optimizing Remote Running
+Creating the SSH Keys in the last step was only the first step in optimizing remote running. Not having to enter a password everytime you want to move a file or run a command remotely saves a lot of time. However, even more time can be saved by running multiple commands to the server all in one line.
+
+1. Remember the Java file you transferred to the server earlier? You can tell the server to compile and run that file, giving you its output all in one line.
+2. Try running the command ```ssh username@ieng6.ucsd.edu "javac info.java; java info.java"```
+  - This command will connect your computer to the remote server and tell it to first, compile the "info.java" file, then run it.
+  - Because the commands in the second half of the line are in quotes, they will all be run on the server.
+  - Including a semi-colon after the individual commands tells the server to run all of them.
+3. Let's say you made an edit to the file on your computer and needed to re-transfer it, re-compile it, and re-run it. This can easily be done by using the up-arrow on your keyboard to go through previously ran commands.
+  - First, re-running the ```scp``` command.
+  - Then, re-running the one-linher with multiple commands.
+  - All of this done with only a few keystrokes, and without the need for a password to be entered on every run.
+
+<details>
+  <summary> » Multiple Commands</summary>
+  
+  <img src="lab1images/multiplecommands.png" alt="Multiple Commands">
+  
+</details> 
+
+**That is all for Part 6! You have now optimized your remote running.**
+
+---
+
+#### Thank you for reading this guide / lab report!
