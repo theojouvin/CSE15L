@@ -22,7 +22,7 @@ Screenshots will be included in spoilers as to not take up uncessary space.
 
   [Test File](lab2resources/files/test-file-inf-loop)
 
-  When running a test file with an extra line at the bottom, or a file that does not contain an open or close bracket, the MarkdownParse program will loop infinitely. In this case, the failure inducing input is that of a lack of opening or closing brackets at all, or after a previously found close bracket if the file contains more text. The symptom is clear, the pogram will loop infinitely, causing Java to run out of memory. This occurs because MarkdownParse continues to loop for the next set of brackets and does nothing except for try again if nothing is found. The fix adds a case to MarkdownParse telling the program to break out of the loop if a new set of brackets are not found.
+  When running a test file with an extra line at the bottom, the MarkdownParse program will loop infinitely. In this case, the failure inducing input is that of a lack of opening and closing brackets after a previously found closing bracket if the file contains more text. The symptom is clear, the pogram will loop infinitely, causing Java to run out of memory. This occurs because MarkdownParse continues to loop, searching for the next set of brackets and does nothing except try again if nothing is found. The fix adds a case to MarkdownParse telling the program to break out of the loop if a new set of brackets are not found.
   
 <details>
   <summary> » Code Change Difference</summary>
