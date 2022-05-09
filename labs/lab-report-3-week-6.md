@@ -1,4 +1,4 @@
-## Lab Report 2
+## Lab Report 3
 ### SSH Config, GitHub Access, and Copying Whole Directories
 ---
 
@@ -59,3 +59,6 @@ Screenshots / GIFs will be included in spoilers as to not take up uncessary spac
   <summary> » Symptom of Failure Inducing Input</summary>
   <img src="lab2resources/images/anytextsymptom.png" alt="Any Text Symptom">
   </details>
+
+
+**This line was added from the ```ieng6``` server!```**
