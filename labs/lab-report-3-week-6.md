@@ -60,5 +60,6 @@ Screenshots / GIFs will be included in spoilers as to not take up uncessary spac
   <img src="lab2resources/images/anytextsymptom.png" alt="Any Text Symptom">
   </details>
 
+---
 
 *This line was added from the ```ieng6``` server!*
