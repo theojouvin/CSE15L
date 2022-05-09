@@ -61,4 +61,4 @@ Screenshots / GIFs will be included in spoilers as to not take up uncessary spac
   </details>
 
 
-**This line was added from the ```ieng6``` server!```**
+*This line was added from the ```ieng6``` server!*
