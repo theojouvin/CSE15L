@@ -106,7 +106,7 @@ Screenshots will be included in spoilers as to not take up uncessary space.
 
 [Markdown Snippet](lab4resources/files/snippet3)
 
-  For this snippet, both MarkdownParse implementations failed their tests.
+  For this snippet, both MarkdownParse implementations failed their tests. The second URL is the only one that should have been outputted. The first and last contain line breaks in their syntax, and the second to last's format is clearly incorrect. Unfortunately, my group's implementation returned no links, and the other group's returned three, with one combining another. Again, I feel like this code change may be longer than 10 lines. Like with the previous snippet, there could be a counter for the parentheses to ensure that only URLS with complete syntaxes are being returned (my group). This may be a smaller code change, but there could also be a check for line breaks in the link syntax to ensure that links with line breaks are not returned (other group).
   
 <details>
   <summary> » Expected Output</summary>
