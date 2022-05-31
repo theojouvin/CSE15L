@@ -20,8 +20,9 @@ Screenshots will be included in spoilers as to not take up uncessary space.
 
 ---
 
-My lab group's Markdown Parser repository: [Mashyuf/markdown-parser](https://github.com/Mashyuf/markdown-parser)
-The reviewed Markdown Parser repository: [cmy0357/markdown-parser](https://github.com/cmy0357/markdown-parser)
+My lab group's Markdown Parser repository: <a href="https://github.com/Mashyuf/markdown-parser" target="_blank">Mashyuf/markdown-parser</a>
+
+The reviewed Markdown Parser repository: <a href="https://github.com/cmy0357/markdown-parser" target="_blank">cmy0357/markdown-parser</a>
 
 ---
 
