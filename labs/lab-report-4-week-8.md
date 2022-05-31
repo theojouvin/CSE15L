@@ -8,7 +8,8 @@ This lab report contains the following:
 - For three Markdown code snippets:
   - Expected Output
   - MarkdownParseTest Code
-  - Test results for both implementations of MarkdownParse
+  - Actual outputs for both implementations of MarkdownParse.
+  - Test results for both implementations of MarkdownParse.
   - Potential code fixes to achieve expected output, if necessary.
 
 Screenshots will be included in spoilers as to not take up uncessary space. 
