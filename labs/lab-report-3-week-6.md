@@ -2,7 +2,7 @@
 ### SSH Config, GitHub Access, and Copying Whole Directories
 ---
 
-This lab report contains the following;
+This lab report contains the following:
 - An example of an SSH Configuration file making it easier to connect to and transfer files to an external server.
 - An example of setting up access to GitHub from an external server to allow for remote edits and commits.
 - An example of copying a whole directory to an external server and running tests with those files.
