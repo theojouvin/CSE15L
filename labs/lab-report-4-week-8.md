@@ -109,7 +109,7 @@ Screenshots will be included in spoilers as to not take up uncessary space.
   
 <details>
   <summary> » Expected Output</summary>
-  [https://www.twitter.com, https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule, https://cse.ucsd.edu/]
+  [https://sites.google.com/eng.ucsd.edu/cse-15l-spring-2022/schedule]
   <br /><img src="lab4resources/images/snippet3expected.png" alt="Snippet 3 Expected Output">
   </details>
 
