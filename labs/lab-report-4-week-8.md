@@ -1,13 +1,17 @@
-## Lab Report 3
-### SSH Config, GitHub Access, and Copying Whole Directories
+## Lab Report 4
+### Testing the Implementation of Two Versions of MarkdownParse
 ---
 
 This lab report contains the following;
-- An example of an SSH Configuration file making it easier to connect to and transfer files to an external server.
-- An example of setting up access to GitHub from an external server to allow for remote edits and commits.
-- An example of copying a whole directory to an external server and running tests with those files.
+- A link to my lab group's Markdown Parser repository.
+- A link to another lab group's Markdown Parser repository that my group reviewed.
+- For three Markdown code snippets:
+  - Expected Output
+  - MarkdownParseTest Code
+  - Test results for both implementations of MarkdownParse
+  - Potential code fixes to achieve expected output, if necessary.
 
-Screenshots / GIFs will be included in spoilers as to not take up uncessary space. 
+Screenshots will be included in spoilers as to not take up uncessary space. 
 
 <details>
   <summary> » This is a spoiler, Click Me!</summary>
@@ -16,7 +20,12 @@ Screenshots / GIFs will be included in spoilers as to not take up uncessary spac
 
 ---
 
-## 1. Streamlining SSH Configuration
+My lab group's Markdown Parser repository: https://github.com/Mashyuf/markdown-parser
+The reviewed Markdown Parser repository: https://github.com/cmy0357/markdown-parser
+
+---
+
+## 1. Snippet 1
 
   Using SSH Keys instead of a password made connecting to the remote server easier. Adding the host to the ```/.ssh/config``` file makes the process of remote connecting even faster. I added a few lines shown in the first image into the config file using TextEdit. Then, in the second image, I demonstrated logging in with the ```ssh``` command using the nickname that I gave the host in the config file. Finally, in the last image, I demonstrated copying a file over to the remote server using the ```scp``` command. This was all much faster and easier!
   
@@ -36,7 +45,7 @@ Screenshots / GIFs will be included in spoilers as to not take up uncessary spac
   </details>
 
 
-## 2. Setting up GitHub Access from ```ieng6```
+## 2. Snippet 2
 
   Cloning a GitHub Repository to the remote server using its link only allows limited access to the repository. (Ex. Checking the status and pulling updates). If we want to commit and push changes, further authentication needs to be set-up. I went through this process, and created SSH keys to do so. Shown in the first spoiler are the locations of the public key (```~/.ssh```) on the remote server and on GitHub. Shown in the second spoiler is the location of the private key on the remote server (also in the ```~/.ssh``` folder). In the third spoiler, I staged, committed, and pushed a change to GitHub. Lastly, the fourth spoiler and accompanying link shows the commit.
   
@@ -63,7 +72,7 @@ Screenshots / GIFs will be included in spoilers as to not take up uncessary spac
   </details>
   
   
-## 3. Copying Whole Directories With ```scp -r```
+## 3. Snippet 3
 
   Copying an entire folder to a remote server is as easy as adding the ```-r``` flag to the ```scp``` command. In the first image, I demonstrate copying the entirety of the MarkdownParse folder. In the second image, I compiled and ran tests on the remote server in the directory that I had just copied over. In the last image, I demonstrated copying a directory, compiling, and running tests, all in one command using quotes and semi-colons.
   
@@ -81,8 +90,3 @@ Screenshots / GIFs will be included in spoilers as to not take up uncessary spac
   <summary> » Copying an Entire Directory and Testing in One Command</summary>
   <img src="lab3images/combinecmds.gif" alt="Combining Commands">
   </details>
-
-
----
-
-*This line was added from the ```ieng6``` server!*
