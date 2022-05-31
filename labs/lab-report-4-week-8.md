@@ -30,7 +30,7 @@ Screenshots will be included in spoilers as to not take up uncessary space.
 
 [Markdown Snippet](lab4resources/files/snippet1)
 
-  For this snippet, both MarkdownParse implementations failed their tests.
+  For this snippet, both MarkdownParse implementations failed their tests. Both implementations included ```url.com``` when they should not have. I feel like this code change would be pretty small, less than 10 lines. The link should not have been included because since the backtick came first, it should parse as a code block. Of course, both implementations of MarkdownParse did not know this. The fix could be to check for a pair of backticks, with the first backtick occuring before the start of the URL syntax (before the opening bracket). My group's implementation of MarkdownParse also did not output ```ucsd.edu```, probably because of the closing bracket in the link title portion of the URL syntax. A fix for this could include skipping over brackets in the title portion if they do not complete a valid URL.
   
 <details>
   <summary> » Expected Output</summary>
