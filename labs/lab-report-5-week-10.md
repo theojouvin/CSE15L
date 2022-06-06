@@ -1,5 +1,5 @@
-## Lab Report 4
-### Testing the Implementation of Two Versions of MarkdownParse
+## Lab Report 5
+### Testing Two Implementations of MarkdownParse Using ```vimdiff``` With Many Test Files.
 ---
 
 This lab report contains the following:
