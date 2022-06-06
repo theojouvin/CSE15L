@@ -8,7 +8,7 @@ This lab report contains the following:
 - For each test:
   - A description of which implentation of MarkdownParse is correct (or incorrect, if both are) with its output.
   - Actual outputs from both implementations of MarkdownParse.
-  - Expected outputs from both implementations of MarkdownParse.
+  - The expected output
   - For the (or for one) implementation that is incorrect:
     - A short description of the bug found in the code that is causing the incorrect output.
     - The location in the code where a change should be made that can correct the output.
