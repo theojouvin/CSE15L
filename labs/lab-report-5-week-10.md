@@ -37,7 +37,8 @@ To find the differences between the test results, I first used a script to run t
 
 ## Test File 494
 
-  For this snippet, both MarkdownParse implementations failed their tests. Both implementations included ```url.com``` when they should not have. I feel like this code change would be pretty small, less than 10 lines. The link should not have been included because since the backtick came first, it should parse as a code block. Of course, both implementations of MarkdownParse did not know this. The fix could be to check for a pair of backticks, with the first backtick occuring before the start of the URL syntax (before the opening bracket). My group's implementation of MarkdownParse also did not output ```ucsd.edu```, probably because of the closing bracket in the link title portion of the URL syntax. A fix for this could include skipping over brackets in the title portion if they do not complete a valid URL.
+  For this test file, neither implementation is correct. Screenshots have been provided for the actual outputs from both implementations. A screenshot and text has also been provided for the expected output.
+  I will be going over my lab group's implementation for this next portion of the report. My group's MarkdownParse is going through the test file and deciding that everything that is in the parentheses is to be considered a URL, even the back-slashes (these should be omitted). It returns the contents as a URL once it reaches the first closing parenthesis, even though there is a nested pair in the actual syntax's pair of parentheses. It should be only concluding that there is a URL once it reaches the closing parenthesis that completes the first open one. A screenshot of our ```MarkdownParse.java``` is also included below with a highlighted portion of code where a change needs to be made to produce the correct output.
   
 <details>
   <summary> » Lab Group's Actual Output</summary>
@@ -63,7 +64,8 @@ To find the differences between the test results, I first used a script to run t
 
 ## Test File 577
 
-  For this snippet, both MarkdownParse implementations failed their tests. Both implementations outputted ```a.com((``` instead of ```a.com(())```. I feel like this code change may be longer than 10 lines. It looks like both implementations completed the URL early, because of the extra parentheses. A potential fix for this could be to have MarkdownParse count its current position in the parentheses to ensure that it returns the link once the syntax has actually completed. My group's implementation of MarkdownParse also did not output ```example.com```, probably because of the extra brackets. The fix for this could be similar to that of the previous failure's solution; having the program count its current position in the brackets to ensure that it actually returns a link when one is present.
+   For this test file, my lab group's implementation is correct. Screenshots have been provided for the actual outputs from both implementations. A screenshot and text has also been provided for the expected output.
+   I will be going over the main implementation for this next portion of the report. The MarkdownParse that was provided to the class is going through the test file and looking for an exact match to a URL syntax, even if it is actually an image syntax, for example. It returns the contents as a URL whether or not there is an exclamation point before the first opening bracket. It should be checking for the inclusion of an exclamation point before the first opening bracket, and if it finds one; not returning the URL as a valid link. It is important to ensure that this is only checked if the first opening bracket is not in the index of 0, or an out of bounds error will occur. A screenshot the main ```MarkdownParse.java``` is also included below with a highlighted portion of code where a change needs to be made to produce the correct output.
   
 <details>
   <summary> » Lab Group's Actual Output</summary>
@@ -77,7 +79,7 @@ To find the differences between the test results, I first used a script to run t
 
 <details>
   <summary> » Expected Output</summary>
-  [(foo)]
+  []
   <br /><img src="lab5images/tf577expectedoutput.png" alt="Test File 577 - Expected Output">
   </details>
   
